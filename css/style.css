@@ -1,0 +1,63 @@
+/* Style for the body */
+body {
+  font-family: Arial, sans-serif;  /* Use a clean, readable font */
+  background-color: #d1f847;       /* Light blue background */
+  color: #333;                     /* Dark gray text color */
+  text-align: center;              /* Center content */
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Heading styles */
+h1 {
+  font-size: 3em;
+  margin-top: 50px;
+  color: #0077b6;                 /* Deep blue heading color */
+  text-transform: uppercase;       /* Uppercase text */
+  letter-spacing: 5px;             /* Add some spacing between letters */
+}
+
+/* Paragraph styles */
+p {
+  font-size: 1.2em;
+  color: #555;                    /* Slightly lighter gray for paragraphs */
+}
+
+/* Button styles */
+button {
+  background-color: #ff6347;      /* Tomato background color */
+  color: white;                   /* White text */
+  padding: 15px 30px;             /* Larger padding for bigger buttons */
+  font-size: 1.2em;               /* Increase font size for better readability */
+  border: none;                   /* Remove default border */
+  border-radius: 10px;            /* Rounded corners */
+  margin: 10px;                   /* Add spacing between buttons */
+  cursor: pointer;                /* Pointer cursor on hover */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Add smooth transition for hover effects */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #ff4500;      /* Darker red on hover */
+  transform: scale(1.1);          /* Slightly enlarge button on hover */
+}
+
+/* Style for the result text */
+#result {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 30px;
+  color: #0077b6;                 /* Deep blue color for the result */
+}
+
+/* Media query for responsive design */
+@media (max-width: 600px) {
+  h1 {
+      font-size: 2em;             /* Reduce heading size on small screens */
+  }
+  button {
+      width: 100%;                /* Buttons take full width on small screens */
+      padding: 10px;              /* Reduce padding on small screens */
+  }
+}

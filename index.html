@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock, Paper, Scissors Game</title>  
+  <!-- Load JavaScript file asynchronously to improve page load time, as 'defer' ensures the script is executed after the HTML is parsed -->
+  <script src="scripts/myJavascript.js" defer></script>
+
+  <!-- Link to the external stylesheet for adding styles to the page -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Game heading -->
+  <h1>Rock, Paper, Scissors</h1>
+
+  <!-- Instructions for the player -->
+  <p>Choose between Rock, Paper, or Scissors:</p>
+
+  <!-- Buttons for user to make a choice -->
+  <button onclick="playGame('rock')">Rock</button>
+  <button onclick="playGame('paper')">Paper</button>
+  <button onclick="playGame('scissors')">Scissors</button>
+
+  <!-- This paragraph will display the results -->
+  <p id="result"></p>
+
+  <!-- External JavaScript file linked at the bottom of the body to load after the HTML -->
+  <script src="script.js"></script>
+</body>
+</html>
